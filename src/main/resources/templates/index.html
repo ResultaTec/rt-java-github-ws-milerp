@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<!-- Meta, title, CSS, favicons, etc. -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title data-layout-title-pattern="$LAYOUT_TITLE | $CONTENT_TITLE">MilERP</title>
+	
+	<!-- Bootstrap -->
+	<link href="webjars/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	
+	<!-- Font Awesome -->
+	<link href="webjars/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	
+	<!-- NProgress -->
+	<link href="webjars/nprogress/nprogress.css" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link href="webjars/animate.css/animate.css" rel="stylesheet">
+	
+	<!-- Custom Theme Style -->
+	<link href="css/custom.min.css" rel="stylesheet">
+
+</head>
+
+<body class="login" style="background: #f0f7f0 url(images/bg_inicial.jpg) top left no-repeat;">
+	<div>
+		<a class="hiddenanchor" id="signup"></a> <a class="hiddenanchor"
+			id="signin"></a>
+
+		<div class="login_wrapper">
+			<div class="animate form login_form">
+				<section class="login_content">
+					<form>
+						<div style="text-align: center;">
+							<img src="/images/download.png" alt="">
+							<h1>Departamento de Estradas De Rodagem do Paraná</h1>
+						</div>
+						
+						<div>
+							<input type="text" class="form-control" placeholder="Usuário" required="required" />
+						</div>
+						<div>
+							<input type="password" name="password" class="form-control" placeholder="Senha" />
+						</div>
+						<div>
+							<a class="btn btn-default submit" data-th-href="@{/dashboard}">Log
+								in</a> <a class="to_register" href="#">Esqueci minha senha?</a>
+						</div>
+
+						<div class="clearfix"></div>
+
+						<div class="separator">
+
+							<div class="clearfix"></div>
+							<br />
+
+							<div>
+								<p>©2017 Todos os direitos reservados.</p>
+								<div style="text-align: center;">
+									<img src="/images/lo_softplan_login.png" alt="">
+								</div>
+							</div>
+							
+						</div>
+					</form>
+				</section>
+			</div>
+
+			<div id="register" class="animate form registration_form">
+				<section class="login_content">
+					<form>
+						<h1>Create Account</h1>
+						<div>
+							<input type="text" class="form-control" placeholder="Username"
+								required="required" />
+						</div>
+						<div>
+							<input type="email" class="form-control" placeholder="Email"
+								required="required" />
+						</div>
+						<div>
+							<input type="password" class="form-control"
+								placeholder="Password" required="required" />
+						</div>
+						<div>
+							<a class="btn btn-default submit" href="index.html">Submit</a>
+						</div>
+
+						<div class="clearfix"></div>
+
+						<div class="separator">
+							<p class="change_link">
+								Already a member ? <a href="#signin" class="to_register"> Log in </a>
+							</p>
+
+							<div class="clearfix"></div>
+							<br />
+
+							<div>
+								<h1><i class="fa fa-paw"></i> Gentelella Alela!</h1>
+								<p>©2016 All Rights Reserved. Gentelella Alela! is a Bootstrap 3 template. Privacy and Terms</p>
+							</div>
+							
+						</div>
+					</form>
+				</section>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
